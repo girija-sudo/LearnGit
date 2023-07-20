@@ -1,0 +1,62 @@
+{
+  "otaPackageData": {
+    "modelNumbers": ["Test1"],
+    "updateType": "QF",
+    "systemTechnicalModel": "QPlus_Sat_test28",
+    "platform": "Cooking",
+    "isTestRelease": false,
+    "projectReleaseNumber": "W00000000",
+    "appUpdateDescriptionURL": "",
+    "isMandatoryUpdate": true,
+    "targetSystemVersion": "2.2.2",
+    "updateDescriptionURL": "",
+    "updateDescriptionDecryptionKey": "",
+    "nodes": [
+		{
+      "board": "acu",
+      "nodeId": 1,
+      "softwareComponents": [
+        {
+          "targetSoftwareVersion": "2.0.0",
+          "name": "firmware",
+          "programmingOffset": "2800",
+          "length": 251904,
+          "crc": "0000DB5C",
+          "url": "http://fw.whrcloud.com/test/test/gis_sit/Cooking/QPlus_Whp/WFES75300/12/MergedHILL12_WFES7530_T88313936.s19.signed.enc",
+          "decryptionKey": "d55MI16WdUXajny0y8ZwvPvHX4JgMRYLZKMw9s1ZwGk="
+        }
+      ]
+    },
+    {
+      "board": "expansionHMI",
+      "nodeId": 4,
+      "softwareComponents": [
+        {
+          "targetSoftwareVersion": "0.9.2",
+          "name": "firmware",
+          "programmingOffset": "FFFE0000",
+          "length": 114432,
+          "crc": "000054A2",
+          "url": "http://fw.whrcloud.com/test/test/gis_sit/Cooking/QPlus_Whp/WFGS7530_/92/BridgeHMI_S0.9.2_RX130_Base.s19.signed.enc",
+          "decryptionKey": "d55MI16WdUXajny0y8ZwvPvHX4JgMRYLZKMw9s1ZwGk="
+        }
+      ]
+    },
+    {
+      "board": "hmi",
+      "nodeId": 6,
+      "softwareComponents": [
+        {
+          "targetSoftwareVersion": "2.2.2",
+          "name": "firmware",
+          "programmingOffset": "0x10000",
+          "length": 3818256,
+          "crc": "00008514",
+          "url": "http://fw.whrcloud.com/test/test/gis_sit/Cooking/QPlus_Whp/WFES7530_/201/xs_esp32.bin.signed.enc",
+          "decryptionKey": "d55MI16WdUXajny0y8ZwvPvHX4JgMRYLZKMw9s1ZwGk="
+        }
+      ]
+    }
+    ]
+  }
+}
